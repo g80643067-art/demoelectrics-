@@ -54,7 +54,7 @@ const MainContent = () => {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-navy text-white font-sans selection:bg-cyan selection:text-navy">
+    <div className="min-h-screen flex flex-col bg-navy text-white font-sans selection:bg-cyan selection:text-navy overflow-x-hidden">
       {/* Global Header */}
       <Header />
 

@@ -7,67 +7,67 @@ export default {
   theme: {
     extend: {
       colors: {
-        // Primary accent: Electric Cyan (#43D9FF)
+        // Primary accent: Vibrant Red (#EF4444)
         cyan: {
-          DEFAULT: '#43D9FF',
-          50: '#f0fbff',
-          100: '#e0f7fe',
-          200: '#baeffd',
-          300: '#7ee3fc',
-          400: '#43D9FF',
-          500: '#0fc4f5',
-          600: '#00a3d4',
-          700: '#0282ab',
-          800: '#086b8b',
-          900: '#0d5972',
+          DEFAULT: '#EF4444',
+          50: '#fef2f2',
+          100: '#fee2e2',
+          200: '#fecaca',
+          300: '#fca5a5',
+          400: '#f87171',
+          500: '#ef4444',
+          600: '#dc2626',
+          700: '#b91c1c',
+          800: '#991b1b',
+          900: '#7f1d1d',
         },
-        // Secondary accent: Ice Blue (#A6E9F5)
+        // Secondary accent: Silver / Light Grey (#E5E7EB)
         ice: {
-          DEFAULT: '#A6E9F5',
-          light: '#d6f6fc',
-          dark: '#6ad5eb',
+          DEFAULT: '#E5E7EB',
+          light: '#F3F4F6',
+          dark: '#9CA3AF',
         },
-        // Midnight Navy Palette
+        // Black & Charcoal Grey Palette
         navy: {
-          DEFAULT: '#07111F',     // Main background: Deep Midnight Navy (#07111F)
-          main: '#07111F',        // Deep Midnight Navy (#07111F)
-          section: '#0B1928',     // Section backgrounds: Dark Navy (#0B1928)
-          card: '#102334',        // Cards and containers: Deep Blue-Black (#102334)
-          surface: '#102334',     // Deep Blue-Black (#102334)
-          border: '#294252',      // Borders and dividers: Subtle Blue-Grey (#294252)
-          muted: '#B8C5D1',       // Secondary text: Soft Grey (#B8C5D1)
+          DEFAULT: '#0A0A0A',     // Main background: Pitch Black (#0A0A0A)
+          main: '#0A0A0A',        // Pitch Black (#0A0A0A)
+          section: '#121212',     // Section backgrounds: Dark Charcoal (#121212)
+          card: '#18181B',        // Cards and containers: Deep Zinc/Grey-Black (#18181B)
+          surface: '#18181B',     // Deep Zinc/Grey-Black (#18181B)
+          border: '#27272A',      // Borders and dividers: Muted Dark Grey (#27272A)
+          muted: '#A1A1AA',       // Secondary text: Cool Grey (#A1A1AA)
         },
         // Theme Aliases to ensure 100% site-wide consistency
         aureolin: {
-          DEFAULT: '#43D9FF',
-          50: '#f0fbff',
-          100: '#e0f7fe',
-          200: '#baeffd',
-          300: '#7ee3fc',
-          400: '#43D9FF',
-          500: '#0fc4f5',
-          600: '#00a3d4',
-          700: '#0282ab',
-          800: '#086b8b',
-          900: '#0d5972',
+          DEFAULT: '#EF4444',
+          50: '#fef2f2',
+          100: '#fee2e2',
+          200: '#fecaca',
+          300: '#fca5a5',
+          400: '#f87171',
+          500: '#ef4444',
+          600: '#dc2626',
+          700: '#b91c1c',
+          800: '#991b1b',
+          900: '#7f1d1d',
         },
         bistre: {
-          DEFAULT: '#0B1928',
-          deep: '#07111F',        // Deep Midnight Navy (#07111F)
-          dark: '#0B1928',        // Section backgrounds: Dark Navy (#0B1928)
-          card: '#102334',        // Cards and containers: Deep Blue-Black (#102334)
-          surface: '#102334',     // Deep Blue-Black (#102334)
-          border: '#294252',      // Borders: Subtle Blue-Grey (#294252)
-          light: '#1b344b',
-          muted: '#B8C5D1',       // Secondary text: Soft Grey (#B8C5D1)
+          DEFAULT: '#121212',
+          deep: '#0A0A0A',        // Pitch Black (#0A0A0A)
+          dark: '#121212',        // Section backgrounds: Dark Charcoal (#121212)
+          card: '#18181B',        // Cards and containers: Deep Zinc/Grey-Black (#18181B)
+          surface: '#18181B',     // Deep Zinc/Grey-Black (#18181B)
+          border: '#27272A',      // Borders: Muted Dark Grey (#27272A)
+          light: '#27272A',
+          muted: '#A1A1AA',       // Secondary text: Cool Grey (#A1A1AA)
         },
         violet: {
-          DEFAULT: '#102942',
-          dark: '#0a1b2d',
-          deep: '#061423',
-          light: '#173b5e',
-          glow: '#43D9FF',
-          accent: '#A6E9F5',
+          DEFAULT: '#18181B',
+          dark: '#121212',
+          deep: '#0A0A0A',
+          light: '#27272A',
+          glow: '#EF4444',
+          accent: '#E5E7EB',
         }
       },
       fontFamily: {
@@ -76,14 +76,14 @@ export default {
         display: ['"Outfit"', 'sans-serif'],
       },
       boxShadow: {
-        'glow-yellow': '0 0 25px -4px rgba(67, 217, 255, 0.55)',
-        'glow-yellow-lg': '0 0 50px -5px rgba(67, 217, 255, 0.45)',
-        'glow-cyan': '0 0 25px -4px rgba(67, 217, 255, 0.55)',
-        'glow-cyan-lg': '0 0 50px -5px rgba(67, 217, 255, 0.45)',
-        'glow-violet': '0 0 35px -5px rgba(67, 217, 255, 0.3)',
-        'glow-ice': '0 0 30px -5px rgba(166, 233, 245, 0.4)',
-        'card-dark': '0 10px 30px -10px rgba(0, 7, 18, 0.85)',
-        'inner-light': 'inset 0 1px 1px 0 rgba(166, 233, 245, 0.15)',
+        'glow-yellow': '0 0 25px -4px rgba(239, 68, 68, 0.55)',
+        'glow-yellow-lg': '0 0 50px -5px rgba(239, 68, 68, 0.45)',
+        'glow-cyan': '0 0 25px -4px rgba(239, 68, 68, 0.55)',
+        'glow-cyan-lg': '0 0 50px -5px rgba(239, 68, 68, 0.45)',
+        'glow-violet': '0 0 35px -5px rgba(239, 68, 68, 0.3)',
+        'glow-ice': '0 0 30px -5px rgba(229, 231, 235, 0.4)',
+        'card-dark': '0 10px 30px -10px rgba(0, 0, 0, 0.85)',
+        'inner-light': 'inset 0 1px 1px 0 rgba(229, 231, 235, 0.15)',
       },
       animation: {
         'pulse-subtle': 'pulseSubtle 3s ease-in-out infinite',
